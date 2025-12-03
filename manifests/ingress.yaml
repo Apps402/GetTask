@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: gettask-ingress
 spec:
-  ingressClassName: nginx
+  ingressClassName: azure-application-gateway
   rules:
     - host: gettask.aparnasapps.icu
       http:
